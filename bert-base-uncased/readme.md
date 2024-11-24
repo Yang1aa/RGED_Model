@@ -1,1 +1,1 @@
-https://huggingface.co/google-bert/bert-base-uncased
+url:https://huggingface.co/google-bert/bert-base-uncased
