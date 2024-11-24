@@ -1,0 +1,5 @@
+num_labels: 3
+train: "fever/train.jsonl"
+dev: "fever/shared_task_dev.jsonl"
+dataset: "dataset/fever/wiki-pages"
+batch_size: 8

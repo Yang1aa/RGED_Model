@@ -1,0 +1,11 @@
+gpt_dataset_file: [ "predict/gpt_predict/" ]
+wiki_dataset_file: [ "predict/wiki_predict/" ]
+
+batch_size: 16
+in_channels: 768
+out_channels: 256
+num_relations: 2
+patience: 5
+
+optimizer: { opt: adamW, lr: 4e-5, weight_decay: 1e-5 }
+scheduler: { type: cosine_with_warmup, warmup_proportion: 0.1}

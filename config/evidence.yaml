@@ -1,0 +1,2 @@
+datasets: ['twitter15', 'twitter16', 'germanwings-crash', 'ottawashooting']
+splits: ['train', 'test']
